@@ -1058,7 +1058,7 @@ document.querySelectorAll('.project-card').forEach(card=>{
   const emailBody = `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`;
 
   try {
-    const res = await fetch("https://email-backend-1-knol.onrender.com/send-email", {
+    const res = await fetch("https://email-backend-on-protfolio.onrender.com/send-email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json"
